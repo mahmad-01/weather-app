@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat:wght@200&family=Roboto:wght@300&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(images/background.jpeg);
+    font-family: 'Roboto';
+}
+header{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 45px;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+a:visited{
+    color: aliceblue;
+}
