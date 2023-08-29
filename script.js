@@ -27,6 +27,12 @@ searchInput.addEventListener("click", ()=>{
     searchInput.value = "";
 })
 
+searchInput.addEventListener("keypress", ()=>{
+    if (event.key === "Enter") {
+        subButton.click();
+    }
+})
+
 
 
 /*now what do we need?
